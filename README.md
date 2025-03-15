@@ -7,7 +7,11 @@ José Enderson Ferreira Rodrigues
 jose.rodrigues@pg.inatel.br, jose.e.f.rodrigues.br@gmail.com
 
 ### Linguagem : 
-java
+Java
+
+### Localização da classes :
+src/inatel
+
 
 ### Classe Principal : 
 ComercioEletronico.java
