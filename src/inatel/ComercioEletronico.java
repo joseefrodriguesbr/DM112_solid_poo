@@ -1,15 +1,16 @@
 package inatel;
 
+// Classe Principal
 public class ComercioEletronico
 {
 	public static void main(String[] args)
 	{
-		//Categorias
+		// Categorias
 		System.out.println("[ComercioEletronico] Iniciando categorias...");
 		Categoria categoria1 = new Categoria(1, "Eletrônicos");
 		Categoria categoria2 = new Categoria(2, "Eletrodomésticoss");
 		Categoria categoria3 = new Categoria(3, "Móveis");
-		//Produtos
+		// Produtos
 		System.out.println("[ComercioEletronico] Iniciando produtos...");
 		Produto produto1 = new Produto("Video Game", 815.50, categoria1);
 		Produto produto2 = new Produto("Celular", 2500.56, categoria1);

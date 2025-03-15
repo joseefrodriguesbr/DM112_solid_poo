@@ -1,5 +1,6 @@
 package inatel;
 
+//Princípio SRP : classe com apenas uma responsabilidade, apenas um motivo para ser alterada
 public class Categoria
 {
 	private int codigo;

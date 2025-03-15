@@ -1,5 +1,7 @@
 package inatel;
 
+//Princípio OCP : Objeto/entidade aberto para extensão, mas fechada para modificação. Não precisa ser modificada para adicionar novos tipos de Fatura. 
+//Princípio LSP : Uma classe derivada deve ser substituível por sua classe base. Garante que todas as subclasses podem ser usadas de forma intercambiável sem quebrar o comportamento.
 public abstract class FaturaGenerica implements IFatura
 {
 	protected StringBuilder getConteudoFatura(Pedido pedido, String modalidade)
@@ -7,7 +9,7 @@ public abstract class FaturaGenerica implements IFatura
 		StringBuilder conteudoFatura = new StringBuilder();
 		System.out.println("[" + this.getClass().getSimpleName() + "] Gerando conteúdo da fatura.\n");
 		conteudoFatura.append("============================================================\n");
-		conteudoFatura.append("COMERCIO ELETRONICO E SERVICOS \n");
+		conteudoFatura.append("COMERCIO ELETRONICO - FATURA\n");
 		conteudoFatura.append("------------------------------------------------------------\n");
 		for (Produto produto : pedido.getListaProdutos())
 		{

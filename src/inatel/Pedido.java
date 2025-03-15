@@ -3,6 +3,8 @@ package inatel;
 import java.util.ArrayList;
 import java.util.List;
 
+//Princípio SRP : classe com apenas uma responsabilidade, apenas um motivo para ser alterada
+//Princípio DIP : Dependência de abstrações(Ifatura, IPagamento) e não de implementações. 
 public class Pedido
 {
 	private List<Produto> listaProdutos = new ArrayList<Produto>();
