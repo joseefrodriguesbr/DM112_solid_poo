@@ -13,7 +13,7 @@ java
 ComercioEletronico.java
 
 ### Execução :
-* Opção 1 : A classe 'ComercioEletronico' pode ser executada diretamente pelo eclipse ou VSCode, conforme o exemplo especificado no método main da respectiva classe.<br/><br/>
+* Opção 1 : A classe 'ComercioEletronico.java' pode ser executada diretamente pelo eclipse ou VSCode, conforme o exemplo especificado no método main da respectiva classe.<br/><br/>
 * Opção 2 : Outra opção para executar o exemplo é partir do arquivo start.bat, pela linha de comando, presente na pasta release;
 
 ### Atividade proposta: 
