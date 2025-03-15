@@ -22,6 +22,7 @@ public class PagamentoPIX implements IPagamento
 	{
 		System.out.println("[" + this.getClass().getSimpleName() + "] Modalidade de pagamento : PIX.");
 		System.out.println("[" + this.getClass().getSimpleName() + "] Código PIX : " + this.codigoPIX);
+		System.out.println("[" + this.getClass().getSimpleName() + "] Valor : R$ " + valor);
 		System.out.println("[" + this.getClass().getSimpleName() + "] Pagamento PIX realizado com sucesso.");
 	}
 }

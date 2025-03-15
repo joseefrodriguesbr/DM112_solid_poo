@@ -22,6 +22,7 @@ public class PagamentoCartaoCredito implements IPagamento
 	{
 		System.out.println("[" + this.getClass().getSimpleName() + "] Modalidade de pagamento : CARTÃO DE CRÉDITO");
 		System.out.println("[" + this.getClass().getSimpleName() + "] Número do cartão : " + this.numeroCartao);
+		System.out.println("[" + this.getClass().getSimpleName() + "] Valor : R$ " + valor);
 		System.out.println("[" + this.getClass().getSimpleName() + "] Pagamento com Cartão de Crédito realizado com sucesso.");
 	}
 }
