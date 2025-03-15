@@ -20,6 +20,10 @@ ComercioEletronico.java
 * Opção 1 : A classe 'ComercioEletronico.java' pode ser executada diretamente pelo Eclipse ou VSCode, conforme o exemplo especificado no método main da respectiva classe.<br/>
 * Opção 2 : Outra opção para executar o exemplo é partir do arquivo start.bat, presente na pasta release, através da linha de comando.
 
+### Exemplos presentes no código
+<strong>1</strong>-Pedido 1 : Pagamento utilizando modalidade de pagamento via cartão e modelo de fatura enviada por email
+<strong>2</strong>-Pedido 2 : Pagamento utilizando modalidade PIX e modelo de fatura enviada para impressora
+
 ### Atividade proposta: 
 Você foi contratado para desenvolver um sistema de gerenciamento de pedidos para um e-commerce. O sistema deve permitir a criação de pedidos, o cálculo do total da compra e a geração de faturas.  
 Para isso, siga as diretrizes abaixo:
