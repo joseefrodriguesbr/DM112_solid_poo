@@ -34,4 +34,8 @@ Para isso, siga as diretrizes abaixo:
 * O sistema deve suportar diferentes formas de pagamento (Cartão de Crédito, Pix).
 * Ao finalizar um pedido, uma fatura deve ser gerada.
 
-
+### Critérios de Avaliação:
+* Aplicação correta dos conceitos de Encapsulamento, Herança e Polimorfismo.
+* Aplicação dos princípios SOLID, garantindo código modular e extensível.
+* Clareza e organização do código.
+* Uso adequado de interfaces e abstrações.
