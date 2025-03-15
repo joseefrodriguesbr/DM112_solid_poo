@@ -9,7 +9,7 @@ jose.rodrigues@pg.inatel.br, jose.e.f.rodrigues.br@gmail.com
 ### Linguagem : 
 Java
 
-### Localização da classes :
+### Localização das classes :
 src/inatel
 
 
